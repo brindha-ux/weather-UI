@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-app {
+  text-align: center;
+  color: white;
+}
+
+#cityInput {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff4b2b;
+  color: white;
+  cursor: pointer;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 20px;
+  width: 250px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  margin: auto;
+}
+
+.weather-card .location {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.weather-card .icon img {
+  width: 100px;
+}
+
+.weather-card .temperature {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.weather-card .description {
+  font-size: 20px;
+  text-transform: capitalize;
+}
